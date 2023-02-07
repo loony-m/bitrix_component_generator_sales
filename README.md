@@ -6,8 +6,4 @@
 
 $APPLICATION->IncludeComponent("test:sale.generator", "", []);
 
-- Время жизни купона 3 часа
-- Демо:
-http://test1.958855-cf95282.tmweb.ru/test/
-логин - test
-пароль - 12345678
+Время жизни купона 3 часа
