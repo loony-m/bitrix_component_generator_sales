@@ -1,9 +1,12 @@
-## компонент для генерации купонов на скидку
+# Генератор случайных купонов
 
-- Для установки:
-1.  выполнить миграцию , с помощью модуля https://marketplace.1c-bitrix.ru/solutions/sprint.migration/
-2. разместить компонент на странице
+## Описание
+Компонент для 1C-Bitrix. Позволяет сгенерировать случайный купон на скидку. Время жизни купона 3 часа
 
-$APPLICATION->IncludeComponent("test:sale.generator", "", []);
+## Для запуска
 
-Время жизни купона 3 часа
+1. Выполнить миграцию, с помощью модуля https://marketplace.1c-bitrix.ru/solutions/sprint.migration/
+2. Разместить компонент на странице
+```
+$APPLICATION->IncludeComponent("pinkbrain:sale.generator", "", []);
+```
