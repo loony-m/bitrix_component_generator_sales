@@ -8,5 +8,5 @@
 1. Выполнить миграцию, с помощью модуля https://marketplace.1c-bitrix.ru/solutions/sprint.migration/
 2. Разместить компонент на странице
 ```
-$APPLICATION->IncludeComponent("pinkbrain:sale.generator", "", []);
+$APPLICATION->IncludeComponent("test:sale.generator", "", []);
 ```
